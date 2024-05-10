@@ -23,7 +23,7 @@
 // export default StudentHover;
 
 import React, { useState } from 'react';
-import image111 from '../img/photo 1.png'
+import image111 from '../assets/img/photo 1.png';
 
 
 const StudentHover = () => {
