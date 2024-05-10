@@ -1,0 +1,55 @@
+
+.image-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .image-normal {
+    width: 80px;
+    /* Define the default styles for the image */
+    /* e.g., width, height, transition */
+    transition: ease-in-out 0.5s;
+  }
+  
+  .image-hovered {
+    width: 80px;
+    margin-left: 20px;
+    margin-top: 20px;
+   
+    /* Define the styles for the image when hovered */
+    /* e.g., increased size, opacity */
+  }
+  
+  .text-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    border-radius: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 600px;
+    height: 350px;
+    background-color: rgba(255, 255, 255, 0.5); /* Adjust the opacity/color as needed */
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    color: white; /* Text color */
+    font-size: 1.5rem; /* Adjust font size as needed */
+    /* Additional styling for the text */
+  }
+  .MechatOverlay1{
+    margin-top: -20px;
+    margin-left: 130px;
+    color: #09645B;
+    font-family: Lato;
+    font-size: 25px;
+  }
+  .MechatOverlay2{
+    margin-top: -60px;
+    font-family: Lato;
+    font-weight: 400;
+    color: gray;
+  }
+  

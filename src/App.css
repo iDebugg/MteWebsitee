@@ -1,0 +1,249 @@
+
+.LoginPg{
+  display: flex;
+  gap: 200px;
+}
+.logInImgContainer{
+ 
+}
+.FlexImg{
+  background: linear-gradient(to right, #000000, 
+  #ff6b08, #cf23cf, #eedd44); 
+  height: 1100px;
+  width: 900px;
+}
+.logINImage{
+ display: none;
+}
+.WelcomeMsg{
+  margin-top: -950px;
+  width: 600px;
+  font-size: 45px;
+  padding-left: 40px;
+  color: rgb(255, 255, 255);
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+}
+.loginLogo{
+  width: 190px;
+  margin-bottom: 20px;
+}
+.LogInSpaceDetails{
+  margin-top: 250px;
+}
+.LogInText {
+  margin-bottom: 20px;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  font-style: normal;
+}
+
+.MatNoInput{
+  height: 50px;
+  width: 460px;
+  border-radius: 30px;
+  color: black;
+ border-color: gray;
+ text-transform: uppercase;
+ margin-bottom: 30px;
+}
+.passInput{
+  height: 50px;
+  width: 460px;
+  border-radius: 30px;
+  color: black;
+ border-color: gray;
+ margin-bottom: 5px;
+}
+.MatInput{
+  font-size: 25px;
+  margin-bottom: 10px;
+ color: gray;
+ font-weight: 400;
+ font-family: "Lato", sans-serif;
+}
+.FgtPasswdrTxt{
+  font-size: 15px;
+  font-weight: 400;
+  font-family: Lato;
+  color: gray;
+}
+.password-toggle-icon{
+  position: absolute;
+  bottom:353px;
+  right: 300px;
+  z-index: 1000;
+  cursor: pointer;
+}
+.logINBtn{
+  width: 460px;
+  border-radius: 30px;
+  background-color: #09645B;
+  color: white;
+  border: none;
+  height: 50px;
+  font-family: "Lato", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+
+
+
+
+
+
+
+/* @media screen and (max-width :430px) {
+  .logInImgContainer{
+    margin-bottom: 30px;
+  }
+  .logINImage{
+    width: 429px;
+    height: 300px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+  }
+  .WelcomeMsg{
+    margin-top: -80px;
+    font-size: 25px;
+    padding-left: 40px;
+    color: white;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+  }
+  .loginLogo{
+    width: 190px;
+  }
+  .LogInSpaceDetails{
+    padding-left: 40px;
+  }
+  .LogInText {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .MatNoInput{
+    height: 40px;
+    width: 330px;
+    border-radius: 20px;
+    color: black;
+   border-color: gray;
+   text-transform: uppercase;
+  }
+  .passInput{
+    height: 40px;
+    width: 330px;
+    border-radius: 20px;
+    color: black;
+   border-color: gray;
+  }
+  .MatInput{
+   color: gray;
+   font-weight: 400;
+   font-family: "Lato", sans-serif;
+  }
+  .password-toggle-icon{
+    position: absolute;
+    bottom:65px;
+    right: 70px;
+    z-index: 1000;
+    cursor: pointer;
+  }
+  .logINBtn{
+    width: 340px;
+    border-radius: 30px;
+    background-color: #09645B;
+    color: white;
+    border: none;
+    height: 50px;
+    font-family: "Lato", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+}
+
+
+
+
+
+@media screen and (max-width :360px) {
+ 
+  .logInImgContainer{
+    margin-bottom: 30px;
+  }
+  .logINImage{
+    width: 359px;
+    height: 300px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+  }
+  .WelcomeMsg{
+    margin-top: -80px;
+    font-size: 25px;
+    padding-left: 20px;
+    color: white;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+  }
+  .loginLogo{
+    width: 150px;
+  }
+  .LogInSpaceDetails{
+    padding-left: 30px;
+  }
+  .LogInText {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .MatNoInput{
+    height: 40px;
+    width: 280px;
+    border-radius: 20px;
+    color: black;
+   border-color: gray;
+   text-transform: uppercase;
+  }
+  .passInput{
+    height: 40px;
+    width: 280px;
+    border-radius: 20px;
+    color: black;
+   border-color: gray;
+  }
+  .MatInput{
+   color: gray;
+   font-weight: 400;
+   font-family: "Lato", sans-serif;
+  }
+  .password-toggle-icon{
+    position: absolute;
+    bottom:-9px;
+    right: 60px;
+    z-index: 1000;
+    cursor: pointer;
+  }
+  .logINBtn{
+    width: 285px;
+    border-radius: 30px;
+    background-color: #09645B;
+    color: white;
+    border: none;
+    height: 50px;
+    font-family: "Lato", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+} */

@@ -1,0 +1,166 @@
+nav{
+  position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgb(156, 156, 156);
+    width: 80%;
+    margin-left: 180px;
+    border-radius: 50px;
+    padding: 20px 80px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+  }
+  .HomeDesign{
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.73),rgba(29, 29, 29, 0.73), rgba(0, 0, 0, 0.73)),
+    url(../src/img/HomeBackground2.png);
+    padding-top: 30px;
+    /* background-size: auto; */
+    background-size: 1850px 960px;
+    background-repeat: no-repeat;
+
+    
+  }
+
+  #navbar{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: fixed;
+    top: 0px;
+    right: -1900px;
+    width: 100%;
+    height: 100%;
+    background: #09645B;
+    box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+    padding: 20px 0 0 20px;  
+    transition: 0.4s ease-in-out; 
+    
+  }
+  #navbar.active{
+    right: 0px;
+  }
+
+  #navbar li{
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+   
+  }
+  #navbar li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    transition: 0.3s ease-in-out;
+  }
+
+  #navbar li a:hover,
+  #navbar li a.active:hover{
+    color: #09645B;
+  }
+  #navbar li a:hover::after,
+  #navbar li a.active:hover::after{
+    content: "";
+    width: 30%;
+    height: 2px;
+    background:#09645B ;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;   
+  }
+
+  #mobile{
+    color: black;
+    align-items: center;
+  }
+  .DscvrMoreBtn{
+    width: 240px;
+    height: 60px;
+    border-radius: 40px;
+    background-color: #08665d;
+    border: none;
+    color: white;
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 70px;
+
+  }
+  .DiscTomorText{
+    margin-top: 655px;
+    padding-left: 100px;
+    color: white;
+    font-family: Lato;
+    font-size: 900;
+    font-size: 30px;
+  }
+
+  @media screen and (max-width:769px) {
+    nav{
+      z-index: 2;
+      margin-left: 20px;
+      width: 90%;
+      height: 70px;
+      justify-content: center;
+      border-radius: 50px;
+    }
+    .HomeDesign{
+     padding-top: 35px;
+    }
+    .LogoNavImg{
+      margin-right: 90px;
+    }
+    #navbar{
+      z-index: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 0px;
+        right: -900px;
+        width: 100%;
+        height: 100%;
+        background: #09645B;
+        box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+        padding: 20px 0 0 20px;  
+        transition: 0.4s ease-in-out; 
+        
+      }
+      #navbar.active{
+        right: 0px;
+      }
+      #navbar li{
+       margin-bottom: 25px;
+       
+      }
+      #mobile i {
+        font-size: 24px;
+        cursor: pointer;
+      }
+      .DscvrMoreBtn{
+        width: 200px;
+        height: 60px;
+        border-radius: 40px;
+        background-color: #059c8d;
+        border: none;
+        color: white;
+        font-family: Lato;
+        font-size: 20px;
+        margin-top: 20px;
+        margin-bottom: 70px;
+        font-weight: 400;
+  
+      }
+      .DiscTomorText{
+        margin-top: 325px;
+        padding-left: 30px;
+        color: white;
+        font-family: Lato;
+        font-size: 400;
+        font-size: 20px;
+      }
+  }

@@ -1,0 +1,218 @@
+.whatsMechatrBgBigScreen{
+   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.73),rgba(0, 0, 0, 0.73), rgba(2, 0, 0, 0.73)),
+   url(../src/img/What\ Does\ a\ Mechatronics\ Technician\ Do\ in\ their\ Everyday\ Duties_\ 2.png);
+   text-align: center;
+   background-repeat: no-repeat;
+   background-size: auto;
+   /* background-position: left; */
+   padding-top: 300px;
+   padding-bottom: 300px;
+   padding-left: 400px;
+   padding-right: 15px;
+   display: flex;
+   background-size: 1850px 1200px;
+   gap: 50px;
+}
+.whatsMechatrBg{
+    display: none;
+}
+.whatsMechat{
+    color: #F79531;
+    font-family: Lato; 
+    color: #F79531;
+    font-size: 50px;
+    font-weight: 700;
+  
+
+}
+.whatsMechatDEfntn{
+    color: white;
+    font-family: Lato;
+    font-size: 25px;
+    width: 450px;
+    text-align: left;
+    font-weight: 400;
+    
+
+}
+.MechatCrcleImg{
+    width: 420px;
+    margin-bottom: 20px;
+}
+.whatsMechatWRdDiv{
+    padding-top: 90px;
+}
+.MeetTheHODBigScreen{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.73),rgba(17, 17, 17, 0.73), rgba(102, 102, 102, 0.73)),
+    url(../src/img/Wall-01\ 1\ \(1\).png);
+    text-align: center; 
+    padding-top: 350px;
+    padding-bottom: 230px;
+    padding-left: 400px;
+    padding-right: 20px;
+    background-size: 1850px 1200px;
+    display: flex;
+    gap: 100px;
+}
+.meetTheHOD1{
+    color: #F79531;
+    font-family: Lato;
+    text-align: left;
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+.meetTheHODWord1{
+    color: white;
+    font-family: Lato;
+    font-size: 25px;
+    font-weight: 300;
+    text-align: left; 
+    width: 550px;
+
+}
+.MeetTheHOD{
+    display: none;
+}
+.exectvs{
+    background-color: white;
+    text-align: center; 
+    padding-bottom: 150px;
+    font-family: Lato;
+    padding-top: 250px;
+    padding-bottom: 550px;
+    padding-left: 550px;
+    padding-right: 550px;
+   
+}
+.pstToPrsntExeWrd{
+    color: #03665c;
+    font-size: 28px;
+    font-weight: 400;
+    
+ }
+ .pstToPrsntExe{
+     text-align: center; color: #F79531;
+     font-family: Lato;
+     color: #F79531;
+     font-size: 50px;
+     padding-bottom: 10px;
+ }
+
+.studentOrganztn{
+    background-color: #03665c;
+    height: 800px;
+    text-align: center;
+    padding-top: 100px;
+    padding-left: 500px;
+    padding-right: 500px;
+}
+.studentOrganztnText{
+    color: white;
+    font-family: Lato;
+    font-weight: 900;
+    font-size: 53px;
+}
+.studentOrganztnText2{
+    color: white;
+    font-family: Lato;
+    font-size: 27px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    
+}
+.FaqDiv{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+
+
+
+@media screen and (max-width :430px) {
+ .whatsMechatrBgBigScreen{
+        display: none;
+    }
+.Hidden{
+    display: none;
+}
+
+.whatsMechatrBg{
+    display: block;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.73),rgba(112, 93, 93, 0.73), rgba(2, 0, 0, 0.73)),
+    url(../src/img/What\ Does\ a\ Mechatronics\ Technician\ Do\ in\ their\ Everyday\ Duties_\ 1.png);
+    text-align: center;
+   padding-top: 190px;
+   padding-bottom: 150px;
+   padding-left: 15px;
+   padding-right: 15px;
+}
+.whatsMechat{
+    color: #F79531;
+    font-family: Lato; color: #F79531;
+    font-size: 25px;
+
+}
+.whatsMechatDEfntn{
+    color: white;
+    font-family: Lato;
+    font-size: 15px;
+    font-weight: 400;
+    width: 320px;
+    text-align: center;
+    
+}
+.MechatCrcleImg{
+    width: 280px;
+    margin-bottom: 20px;
+}
+.whatsMechatWRdDiv{
+    padding-top: 0px;
+}
+.MeetTheHODBigScreen{
+    display: none;
+}
+.MeetTheHOD{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.73),rgba(112, 93, 93, 0.73), rgba(2, 0, 0, 0.73)),
+    url(../src/img/Wall-01\ 1.png);
+    text-align: center; 
+    padding-top: 190px;
+    padding-bottom: 150px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: block;
+}
+.meetTheHOD{
+    color: #F79531;
+    font-family: Lato;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.meetTheHODWord{
+    color: white;
+    font-family: Lato;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: left; 
+}
+.exectvs{
+    background-color: white;
+   padding-left: 10px;
+   padding-right: 10px;
+    padding-top: 150px;
+    
+    padding-bottom: 150px;
+}
+.pstToPrsntExeWrd{
+   color: #03665c;
+   font-size: 18px;
+}
+.pstToPrsntExe{
+    text-align: center; color: #F79531;
+    font-family: Lato;
+    color: #F79531;
+    font-size: 27px;
+    padding-bottom: 10px;
+}
+}
