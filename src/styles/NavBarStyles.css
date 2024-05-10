@@ -12,7 +12,7 @@ nav{
   }
   .HomeDesign{
     background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.73),rgba(29, 29, 29, 0.73), rgba(0, 0, 0, 0.73)),
-    url(../src/img/HomeBackground2.png);
+    url(../src/assets/img/HomeBackground2.png);
     padding-top: 30px;
     /* background-size: auto; */
     background-size: 1850px 960px;

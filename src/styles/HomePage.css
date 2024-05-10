@@ -1,6 +1,6 @@
 .whatsMechatrBgBigScreen{
    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.73),rgba(0, 0, 0, 0.73), rgba(2, 0, 0, 0.73)),
-   url(../src/img/What\ Does\ a\ Mechatronics\ Technician\ Do\ in\ their\ Everyday\ Duties_\ 2.png);
+   url(../src/assets/img/What\ Does\ a\ Mechatronics\ Technician\ Do\ in\ their\ Everyday\ Duties_\ 2.png);
    text-align: center;
    background-repeat: no-repeat;
    background-size: auto;
@@ -44,7 +44,7 @@
 }
 .MeetTheHODBigScreen{
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.73),rgba(17, 17, 17, 0.73), rgba(102, 102, 102, 0.73)),
-    url(../src/img/Wall-01\ 1\ \(1\).png);
+    url('../src/assets/img/Wall-01\ 1\ \(1\).png');
     text-align: center; 
     padding-top: 350px;
     padding-bottom: 230px;
@@ -141,7 +141,7 @@
 .whatsMechatrBg{
     display: block;
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.73),rgba(112, 93, 93, 0.73), rgba(2, 0, 0, 0.73)),
-    url(../src/img/What\ Does\ a\ Mechatronics\ Technician\ Do\ in\ their\ Everyday\ Duties_\ 1.png);
+    url('../src/assets/img/What\ Does\ a\ Mechatronics\ Technician\ Do\ in\ their\ Everyday\ Duties_\ 1.png');
     text-align: center;
    padding-top: 190px;
    padding-bottom: 150px;
@@ -175,7 +175,7 @@
 }
 .MeetTheHOD{
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.73),rgba(112, 93, 93, 0.73), rgba(2, 0, 0, 0.73)),
-    url(../src/img/Wall-01\ 1.png);
+    url(../src/assets/img/Wall-01\ 1.png);
     text-align: center; 
     padding-top: 190px;
     padding-bottom: 150px;
