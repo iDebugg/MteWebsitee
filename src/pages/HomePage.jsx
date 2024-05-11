@@ -5,12 +5,14 @@ import MechatCrcle from '../assets/img/mems_deiagram 1.png';
 import HODframe from '../assets/img/frame-01 1.png';
 import StudentHover from './StudentHover.jsx';
 import faqIMG from '../assets/img/FAQ.png';
+import Header from '../components/Header.jsx';
 
 const HomePage = () => {
   return (
     <>
       <div className="HomeDesign">
-        <NavBar />
+        {/* <NavBar /> */}
+        <Header />
 
         <div className="whatsMechatrBgBigScreen">
           <div>
