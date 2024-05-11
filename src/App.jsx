@@ -12,18 +12,43 @@ import './styles/Footer.css';
 import HomePage from './pages/HomePage';
 // import StudentHover from './Screens/StudentHover';
 import Footer from './pages/Footer';
+import { BrowserRouter, useRoutes } from 'react-router-dom';
 // import Carousels from './Screens/Carousels';
+
+const Routes = () => {
+  return useRoutes([
+    {
+      path: '/',
+      element: <HomePage />
+    },
+    // {
+    //   path: '',
+    //   element:
+    // }
+  ])
+}
 
 function App() {
   return (
-    <div className="App">
-      {/* <LogIn /> */}
-      {/* <NavBar /> */}
-      <HomePage />
-      {/* <Carousels /> */}
+    <BrowserRouter>
+      <Routes />
       <Footer />
-    </div>
-  );
+    </BrowserRouter>
+  )
 }
 
 export default App;
+
+// function App() {
+//   return (
+//     <div className="App">
+//       {/* <LogIn /> */}
+//       {/* <NavBar /> */}
+//       <HomePage />
+//       {/* <Carousels /> */}
+//       <Footer />
+//     </div>
+//   );
+// }
+
+// export default App;
