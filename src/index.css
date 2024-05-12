@@ -16,6 +16,10 @@ font-family: Lato;
 
 }
 
+.nav-menu-link {
+  @apply text-white
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

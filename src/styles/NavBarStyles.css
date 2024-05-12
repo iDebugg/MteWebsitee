@@ -1,4 +1,4 @@
-nav{
+/* nav{
   position: fixed;
     display: flex;
     align-items: center;
@@ -12,16 +12,16 @@ nav{
   }
   .HomeDesign{
     background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.73),rgba(29, 29, 29, 0.73), rgba(0, 0, 0, 0.73)),
-    url(../src/assets/img/HomeBackground2.png);
-    padding-top: 30px;
+    url(../src/assets/img/HomeBackground2.png); */
+    /* padding-top: 30px; */
     /* background-size: auto; */
-    background-size: 1850px 960px;
+    /* background-size: 1850px 960px;
     background-repeat: no-repeat;
 
     
-  }
+  } */
 
-  #navbar{
+  /* #navbar{
     
     display: flex;
     flex-direction: column;
@@ -163,4 +163,4 @@ nav{
         font-size: 400;
         font-size: 20px;
       }
-  }
+  } */
