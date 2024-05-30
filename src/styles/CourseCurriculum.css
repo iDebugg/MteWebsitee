@@ -1,0 +1,161 @@
+.elemntMath{
+    display: flex;
+    margin-top: 10px;
+    gap: 350px;
+    background: white ;
+    width: 850px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    border-radius: 20px;
+    
+}
+.elemntMath1{
+    display: flex;
+    margin-top: 10px;
+    gap: 300px;
+    background: white ;
+    width: 850px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    border-radius: 20px;
+}
+.resptnRegistrr{
+    display: flex;
+    margin-top: 10px;
+    gap: 170px;
+    background: white ;
+    width: 850px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    border-radius: 20px;
+   
+ 
+}
+.elemntMathText{
+    
+    color: rgb(80, 80, 80);
+    font-size: 18px;
+    font-family: Lato;
+    width: 380px;
+    font-weight: 600;
+   
+}
+.elemntMathText1{
+    color: white;
+    font-size: 18px;
+    font-family: Lato;
+    margin-top: 10px;
+    
+}
+.elemntMathText1Div{
+    background: #F28205;
+    height: 45px;
+    width: 45px;
+    text-align: center;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+.elemntMathText11{
+    color: rgb(139, 138, 138);
+    font-size: 18px;
+    font-family: Lato;
+    margin-top: -5px;
+    
+}
+.firstSmstrDiv{
+    padding-top: 20px;
+    padding-left: 30px;
+    width: 350px;
+    height: 330px;
+    background: white;
+    border-radius: 30px;
+    box-shadow: 5px 15px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 25px;
+}
+.levels{
+    font-size: 20px;
+    margin-bottom: 16px;
+    color: gray;
+    font-family: Montserrat;
+    font-weight: 500;
+}
+.units{
+  background: white;
+  margin-bottom: 5px;
+  text-align: center;
+  height: 40px;
+  width: 40px;
+ border-radius: 50%;
+ border: 2px solid #F28205;
+ padding-top: 5px;
+ color: gray;
+ font-family: Lato;
+ font-weight: 600;
+ margin-left: 30px;
+}
+.totalUnitsLevel{
+    font-family: Montserrat;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: rgb(54, 53, 53);
+}
+.pdf{
+    font-size: 40px;
+    margin-top: 10px;
+    margin-right: 10px;
+    color: #CAC1E5;
+}
+.eventsDates1{
+    display: flex;
+    margin-top: 30px;
+    gap: 640px;
+    background: #09645B ;
+    width: 850px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 25px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.videosPlay{
+    display: flex;
+    gap: 40px;
+    background: white;
+    padding-left: 30px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-radius: 20px;
+    width: 350px;
+    
+}
+.videosPlay h2{
+   
+    font-size: 27px;
+    font: Montserrat;
+    font-weight: 600;
+    
+}
+.videosPlay .play{
+font-size: 45px;
+color: #CAC1E5;
+}
+.documntsWrd{
+    background: #09645B;
+    display: flex;
+    gap: 20px;
+    
+    padding-left: 30px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-radius: 20px;
+    width: 350px;
+}
+.documntsWrd h2{
+    font-size: 27px;
+    font: Montserrat;
+    font-weight: 600;
+}

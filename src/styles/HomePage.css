@@ -1,3 +1,50 @@
+.flex{
+    padding-top: 200px;
+    padding-left: 200px;
+}
+
+
+.koll{
+    font-size: 50px;
+    color: rgb(173, 173, 173) !important;
+    font-weight: 500;
+    font-family: Lato;
+    margin-bottom: 10px;
+}
+
+.HomeDesign{
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.73),rgba(29, 29, 29, 0.73), rgba(0, 0, 0, 0.73)),
+    url(../src/assets/img/HomeBackground2.png); 
+     padding-top: 30px; 
+    background-size: auto;
+     background-size: 1850px 960px;
+    background-repeat: no-repeat;
+
+  } 
+
+  .DscvrMoreBtn{
+    width: 240px;
+    height: 60px;
+    border-radius: 40px;
+    background-color: #08665d;
+    border: none;
+    color: white;
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 70px;
+
+  }
+  .DiscTomorText{
+    /* margin-top: 655px; */
+    padding-left: 100px;
+    color: white;
+    font-family: Lato;
+    font-size: 900;
+    font-size: 30px;
+  }
+
 .whatsMechatrBgBigScreen{
    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.73),rgba(0, 0, 0, 0.73), rgba(2, 0, 0, 0.73)),
    url(../src/assets/img/What\ Does\ a\ Mechatronics\ Technician\ Do\ in\ their\ Everyday\ Duties_\ 2.png);
@@ -120,99 +167,2317 @@
     margin-bottom: 30px;
     
 }
-.FaqDiv{
-    text-align: center;
+/* .FaqDiv{
+    
+    padding-left: 360px;
     padding-top: 100px;
     padding-bottom: 100px;
-}
+   
+} */
 
 
 
 
-
-@media screen and (max-width :430px) {
- .whatsMechatrBgBigScreen{
+@media screen and (max-width :688px){
+    .HomeDesign{
+        background-image: linear-gradient(to bottom, rgba(138, 138, 138, 0.73),rgba(61, 61, 61, 0.73), rgb(0, 0, 0)),
+        url(../src/assets/img/HomeBackground2.png); 
+         padding-top: 30px; 
+        background-size: auto;
+         width: 688px;
+         height: 100vh;
+        background-repeat: no-repeat;
+        padding-top: 720px;
+    
+      } 
+    .DiscTomorText{
+        
+        padding-left: 20px;
+        color: white;
+        font-family: Lato;
+        font-weight: 600;
+        font-size: 30px;
+      }
+      .welcomeToMechExce{
+        font-size: 18px;
+        font-weight: 500;
+      }
+      .DscvrMoreBtn{
+        width: 180px;
+        height: 60px;
+        border-radius: 40px;
+        background-color: #08665d;
+        border: none;
+        color: white;
+        font-family: Lato;
+        font-weight: 700;
+        font-size: 18px;
+        margin-top: 20px;
+        margin-bottom: 70px;
+    
+      }
+      .whatsMechatrBgBigScreen{
         display: none;
     }
-.Hidden{
-    display: none;
-}
 
-.whatsMechatrBg{
-    display: block;
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.73),rgba(112, 93, 93, 0.73), rgba(2, 0, 0, 0.73)),
-    url('../src/assets/img/What\ Does\ a\ Mechatronics\ Technician\ Do\ in\ their\ Everyday\ Duties_\ 1.png');
-    text-align: center;
-   padding-top: 190px;
-   padding-bottom: 150px;
-   padding-left: 15px;
-   padding-right: 15px;
-}
-.whatsMechat{
-    color: #F79531;
-    font-family: Lato; color: #F79531;
-    font-size: 25px;
 
-}
-.whatsMechatDEfntn{
-    color: white;
-    font-family: Lato;
-    font-size: 15px;
-    font-weight: 400;
-    width: 320px;
-    text-align: center;
+        .whatsMechatrBg{
+        display: block;
+        background-image: linear-gradient(to bottom, rgba(61, 61, 61, 0.73),rgba(61, 61, 61, 0.73), rgba(0, 0, 0, 0.966)),
+        url('../src/assets/img/What\ Does\ a\ Mechatronics\ Technician\ Do\ in\ their\ Everyday\ Duties_\ 2.png');
+        text-align: center;
+        padding-top: 190px;
+        padding-bottom: 150px;
+        padding-left: 25px;
+  
+        }
+        .MechatCrcleImg{
+            width: 390px;
+            margin-bottom: 20px;
+            margin-left: 120px;
+        }
+        .whatsMechat{
+            color: #F79531;
+            font-family: Lato; color: #F79531;
+            font-size: 35px;
+
+        }
+        .whatsMechatDEfntn{
+            color: white;
+            font-family: Lato;
+            font-size: 20px;
+            font-weight: 400;
+            width: 480px;
+            margin-left: 85px;
+            text-align: center;
+            
+        }
+        .MeetTheHODBigScreen{
+            display: none;
+        }
+        .MeetTheHOD{
+            background-image: 
+            url(../src/assets/img/Wall-01\ 2.png);
+            text-align: center; 
+            padding-top: 190px;
+            padding-bottom: 150px;
+            padding-left: 20px;
+            padding-right: 20px;
+            display: block;
+            width: 688px;
+            height: 1000px;
+            
+        }
+        .meetTheHOD{
+            color: #F79531;
+            font-family: Lato;
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 35px;
+        }
+        .meetTheHODWord{
+            color: white;
+            font-family: Lato;
+            font-size: 19px;
+            font-weight: 400;
+            text-align: center; 
+        }
+        .exectvs{
+            background-color: white;
+           padding-left: 10px;
+           padding-right: 10px;
+            padding-top: 150px;
+            
+            padding-bottom: 150px;
+        }
+        .pstToPrsntExeWrd{
+           color: #03665c;
+           font-size: 20px;
+        }
+        .pstToPrsntExe{
+            text-align: center; color: #F79531;
+            font-family: Lato;
+            color: #F79531;
+            font-size: 27px;
+            padding-bottom: 10px;
+        }
+        .studentOrganztn{
+            background-color: #03665c;
+            height: 1500px;
+            text-align: center;
+            padding-top: 100px;
+            padding-left: 20px;
+            padding-right: 30px;
+        }
+        .studentOrganztnText{
+            color: white;
+            font-family: Lato;
+            font-weight: 700;
+            font-size: 30px;
+        }
+        .studentOrganztnText2{
+            color: white;
+            font-family: Lato;
+            font-size: 18px;
+            font-weight: 500;
+            margin-bottom: 30px;
+        }
+        .MITCpic{
+            width: 80px;
+        }
+        .MITC{
+            background: white;
+            padding: 18px;
+            border-radius: 20px;
+            margin-bottom: 20px;
+        }
+        .MITCpicHeader{
+            margin-top: 18px;
+            color: #09645B;
+            font-family: Lato;
+            font-weight: 700;
+            font-size: 16px;
+        }
+        .MITCpicWord{
+            color:  #908E96;
+            font-family: Lato;
+            font-weight: 400;
+            font-size: 16px;
+            text-align: left;
+        }
+        .FaqQuestions{
+            background: #F79531;
+            margin-bottom: 20px;
+            border-top-left-radius: 25px;
+            border-bottom-left-radius: 25px;
+            border-top-right-radius: 25px;
+            /* height: 70px; */
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            padding-right: 15px;
+            color: white;
+            font-family: Lato;
+            font-weight: 400;
+            font-size: 18px;
+            text-align: right;
+            width: 370px;
+        }
+        .FaqDiv{
+            /* height: 800px; */
+            padding-top: 50px;
+            /* padding-left: 20px; */
+        }
+        .qstnMark{
+            background: #908E96;
+            font-size: 25px;
+            border-radius: 40px;
+            width: 35px;
+            height: 35px;
+            color: white;
+            padding-left: 10px;
+            padding-top: 5px;
+            margin-left: 10px;
+            margin-top: 15px;
+        }
+        .FaqReplies{
+            background: #EFEFF0;
+            border-top-left-radius: 25px;
+            border-bottom-left-radius: 25px;
+            border-top-right-radius: 25px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 20px;
+            padding-right: 15px;
+            color: #908E96;
+            font-family: Lato;
+            font-weight: 400;
+            font-size: 18px;
+            text-align: left;
+            width: 480px;
+            margin-bottom: 20px;
+        }
+        .replyMark{
+            background: #908E96;
+            font-size: 25px;
+            border-radius: 40px;
+            width: 35px;
+            height: 35px;
+            color: white;
+            padding-left: 5px;
+            padding-top: 5px;
+            margin-right: 10px;
+            margin-top: 15px;
+        }
+        .FaqQuestions2{
+            background: #F79531;
+            margin-bottom: 20px;
+            border-top-left-radius: 25px;
+            border-bottom-left-radius: 25px;
+            border-top-right-radius: 25px;
+            /* height: 70px; */
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            padding-right: 15px;
+            color: white;
+            font-family: Lato;
+            font-weight: 400;
+            font-size: 18px;
+            text-align: right;
+            width: 370px;
+        }
+        .FaqDivHeading{
+            color: #09645B;
+            font-family: Lato;
+            font-weight: 700;
+            font-size: 26px;
+        }
+        .FaqDivSubHeading{
+            color: #908E96;
+            font-family: Lato;
+            font-size: 19px;
+            font-weight: 400;
+        }
+        .faqQstnDiv1{
+            display: flex;
+            margin-left: 180px;
+        }
+        .faqQstnDiv2{
+            display: flex;
+            margin-left: 180px;
+        }
+        .faqAnswersReply{
+            margin-left: 60px;
+            display: flex;
+        }
+        .clclc{
+            display: none;
+          }
+          .koll{
+            font-size: 35px;
+           
+            font-weight: 500;
+            font-family: Lato;
+            color: rgb(218, 217, 217) !important;
+            margin-left: -40px;
+        }
+        .hjhjhj{
+            padding-left: 80px;
+            padding-top: 140px;
+        }
+    }
+@media screen and (max-width :600px){
+    .HomeDesign{
+        background-image: linear-gradient(to bottom, rgba(138, 138, 138, 0.73),rgba(61, 61, 61, 0.73), rgb(0, 0, 0)),
+        url(../src/assets/img/HomeBackground2.png); 
+         padding-top: 30px; 
+        background-size: auto;
+         width: 600px;
+         height: 100vh;
+        background-repeat: no-repeat;
+        padding-top: 720px;
     
-}
-.MechatCrcleImg{
-    width: 280px;
-    margin-bottom: 20px;
-}
-.whatsMechatWRdDiv{
-    padding-top: 0px;
-}
-.MeetTheHODBigScreen{
-    display: none;
-}
-.MeetTheHOD{
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.73),rgba(112, 93, 93, 0.73), rgba(2, 0, 0, 0.73)),
-    url(../src/assets/img/Wall-01\ 1.png);
-    text-align: center; 
-    padding-top: 190px;
-    padding-bottom: 150px;
-    padding-left: 20px;
-    padding-right: 20px;
-    display: block;
-}
-.meetTheHOD{
-    color: #F79531;
-    font-family: Lato;
-    text-align: left;
-    margin-bottom: 20px;
-}
-.meetTheHODWord{
-    color: white;
-    font-family: Lato;
-    font-size: 15px;
-    font-weight: 400;
-    text-align: left; 
-}
-.exectvs{
-    background-color: white;
-   padding-left: 10px;
-   padding-right: 10px;
-    padding-top: 150px;
+      } 
+    .DiscTomorText{
+        
+        padding-left: 20px;
+        color: white;
+        font-family: Lato;
+        font-weight: 600;
+        font-size: 30px;
+      }
+      .welcomeToMechExce{
+        font-size: 18px;
+        font-weight: 500;
+      }
+      .DscvrMoreBtn{
+        width: 180px;
+        height: 60px;
+        border-radius: 40px;
+        background-color: #08665d;
+        border: none;
+        color: white;
+        font-family: Lato;
+        font-weight: 700;
+        font-size: 18px;
+        margin-top: 20px;
+        margin-bottom: 70px;
     
-    padding-bottom: 150px;
+      }
+      .whatsMechatrBgBigScreen{
+        display: none;
+    }
+
+
+        .whatsMechatrBg{
+        display: block;
+        background-image: linear-gradient(to bottom, rgba(61, 61, 61, 0.73),rgba(61, 61, 61, 0.73), rgba(0, 0, 0, 0.966)),
+        url('../src/assets/img/What\ Does\ a\ Mechatronics\ Technician\ Do\ in\ their\ Everyday\ Duties_\ 2.png');
+        text-align: center;
+        padding-top: 190px;
+        padding-bottom: 150px;
+        padding-left: 25px;
+  
+        }
+        .MechatCrcleImg{
+            width: 290px;
+            margin-bottom: 20px;
+            margin-left: 120px;
+        }
+        .whatsMechat{
+            color: #F79531;
+            font-family: Lato; color: #F79531;
+            font-size: 29px;
+
+        }
+        .whatsMechatDEfntn{
+            color: white;
+            font-family: Lato;
+            font-size: 20px;
+            font-weight: 400;
+            width: 380px;
+            margin-left: 85px;
+            text-align: center;
+            
+        }
+        .MeetTheHODBigScreen{
+            display: none;
+        }
+        .MeetTheHOD{
+            background-image: 
+            url(../src/assets/img/Wall-01\ 2.png);
+            text-align: center; 
+            padding-top: 190px;
+            padding-bottom: 150px;
+            padding-left: 20px;
+            padding-right: 20px;
+            display: block;
+            width: 600px;
+            height: 900px;
+            
+        }
+        .meetTheHOD{
+            color: #F79531;
+            font-family: Lato;
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 35px;
+        }
+        .meetTheHODWord{
+            color: white;
+            font-family: Lato;
+            font-size: 19px;
+            font-weight: 400;
+            text-align: center; 
+        }
+        .exectvs{
+            background-color: white;
+           padding-left: 10px;
+           padding-right: 10px;
+            padding-top: 150px;
+            
+            padding-bottom: 150px;
+        }
+        .pstToPrsntExeWrd{
+           color: #03665c;
+           font-size: 20px;
+        }
+        .pstToPrsntExe{
+            text-align: center; color: #F79531;
+            font-family: Lato;
+            color: #F79531;
+            font-size: 27px;
+            padding-bottom: 10px;
+        }
+        .studentOrganztn{
+            background-color: #03665c;
+            height: 1500px;
+            text-align: center;
+            padding-top: 100px;
+            padding-left: 10px;
+            padding-right: 15px;
+        }
+        .studentOrganztnText{
+            color: white;
+            font-family: Lato;
+            font-weight: 700;
+            font-size: 30px;
+        }
+        .studentOrganztnText2{
+            color: white;
+            font-family: Lato;
+            font-size: 18px;
+            font-weight: 500;
+            margin-bottom: 30px;
+        }
+        .MITCpic{
+            width: 80px;
+        }
+        .MITC{
+            background: white;
+            padding: 18px;
+            border-radius: 20px;
+            margin-bottom: 20px;
+        }
+        .MITCpicHeader{
+            margin-top: 18px;
+            color: #09645B;
+            font-family: Lato;
+            font-weight: 700;
+            font-size: 16px;
+        }
+        .MITCpicWord{
+            color:  #908E96;
+            font-family: Lato;
+            font-weight: 400;
+            font-size: 16px;
+            text-align: left;
+        }
+        .FaqQuestions{
+            background: #F79531;
+            margin-bottom: 20px;
+            border-top-left-radius: 25px;
+            border-bottom-left-radius: 25px;
+            border-top-right-radius: 25px;
+            /* height: 70px; */
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            padding-right: 15px;
+            color: white;
+            font-family: Lato;
+            font-weight: 400;
+            font-size: 18px;
+            text-align: right;
+            width: 350px;
+        }
+        .FaqDiv{
+            /* height: 800px; */
+            padding-top: 50px;
+            /* padding-left: 20px; */
+        }
+        .qstnMark{
+            background: #908E96;
+            font-size: 25px;
+            border-radius: 40px;
+            width: 35px;
+            height: 35px;
+            color: white;
+            padding-left: 10px;
+            padding-top: 5px;
+            margin-left: 10px;
+            margin-top: 15px;
+        }
+        .FaqReplies{
+            background: #EFEFF0;
+            border-top-left-radius: 25px;
+            border-bottom-left-radius: 25px;
+            border-top-right-radius: 25px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 20px;
+            padding-right: 15px;
+            color: #908E96;
+            font-family: Lato;
+            font-weight: 400;
+            font-size: 18px;
+            text-align: left;
+            width: 450px;
+            margin-bottom: 20px;
+        }
+        .replyMark{
+            background: #908E96;
+            font-size: 25px;
+            border-radius: 40px;
+            width: 35px;
+            height: 35px;
+            color: white;
+            padding-left: 5px;
+            padding-top: 5px;
+            margin-right: 10px;
+            margin-top: 15px;
+        }
+        .FaqQuestions2{
+            background: #F79531;
+            margin-bottom: 20px;
+            border-top-left-radius: 25px;
+            border-bottom-left-radius: 25px;
+            border-top-right-radius: 25px;
+            /* height: 70px; */
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            padding-right: 15px;
+            color: white;
+            font-family: Lato;
+            font-weight: 400;
+            font-size: 18px;
+            text-align: right;
+            width: 350px;
+        }
+        .FaqDivHeading{
+            color: #09645B;
+            font-family: Lato;
+            font-weight: 700;
+            font-size: 22px;
+        }
+        .FaqDivSubHeading{
+            color: #908E96;
+            font-family: Lato;
+            font-size: 18px;
+            font-weight: 400;
+        }
+        .faqQstnDiv1{
+            display: flex;
+            margin-left: 150px;
+        }
+        .faqQstnDiv2{
+            display: flex;
+            margin-left: 150px;
+        }
+        .faqAnswersReply{
+            margin-left: 30px;
+            display: flex;
+        }
+        .clclc{
+            display: none;
+          }
+          .koll{
+            font-size: 30px;
+           
+            font-weight: 500;
+            font-family: Lato;
+            color: rgb(218, 217, 217) !important;
+            margin-left: -40px;
+        }
+        .hjhjhj{
+            padding-left: 80px;
+            padding-top: 140px;
+        }
+    }
+@media screen and (max-width: 430px){
+        .HomeDesign{
+            background-image: linear-gradient(to bottom, rgba(138, 138, 138, 0.73),rgba(61, 61, 61, 0.73), rgb(0, 0, 0)),
+            url(../src/assets/img/HomeBackground.png); 
+             padding-top: 30px; 
+            background-size: auto;
+             width: 430px;
+             height: 100vh;
+            background-repeat: no-repeat;
+            padding-top: 490px;
+        
+          } 
+        .DiscTomorText{
+            
+            padding-left: 20px;
+            color: white;
+            font-family: Lato;
+            font-weight: 600;
+            font-size: 30px;
+          }
+          .welcomeToMechExce{
+            font-size: 18px;
+            font-weight: 500;
+          }
+          .DscvrMoreBtn{
+            width: 180px;
+            height: 60px;
+            border-radius: 40px;
+            background-color: #08665d;
+            border: none;
+            color: white;
+            font-family: Lato;
+            font-weight: 700;
+            font-size: 18px;
+            margin-top: 20px;
+            margin-bottom: 70px;
+        
+          }
+          .whatsMechatrBgBigScreen{
+            display: none;
+        }
+    
+    
+            .whatsMechatrBg{
+                display: block;
+                background-image: linear-gradient(to bottom, rgba(61, 61, 61, 0.73),rgba(61, 61, 61, 0.73), rgba(0, 0, 0, 0.966)),
+                url('../src/assets/img/What\ Does\ a\ Mechatronics\ Technician\ Do\ in\ their\ Everyday\ Duties_\ 1.png');
+                text-align: center;
+            padding-top: 190px;
+            padding-bottom: 150px;
+            padding-left: 35px;
+      
+            }
+            .MechatCrcleImg{
+                width: 300px;
+                margin-bottom: 20px;
+                margin-left: 25px;
+            }
+            .whatsMechat{
+                color: #F79531;
+                font-family: Lato; color: #F79531;
+                font-size: 25px;
+    
+            }
+            .whatsMechatDEfntn{
+                color: white;
+                font-family: Lato;
+                font-size: 15px;
+                font-weight: 400;
+                width: 340px;
+                text-align: center;
+                margin-left: 10px;
+                
+            }
+            .MeetTheHODBigScreen{
+                display: none;
+            }
+            .MeetTheHOD{
+                background-image: 
+                url(../src/assets/img/Wall-01\ 1.png);
+                text-align: center; 
+                padding-top: 190px;
+                padding-bottom: 150px;
+                padding-left: 20px;
+                padding-right: 20px;
+                display: block;
+                width: 430px;
+                height: 900px;
+            }
+            .meetTheHOD{
+                color: #F79531;
+                font-family: Lato;
+                text-align: center;
+                margin-bottom: 20px;
+                font-size: 22px;
+            }
+            .meetTheHODWord{
+                color: white;
+                font-family: Lato;
+                font-size: 15px;
+                font-weight: 400;
+                text-align: center; 
+            }
+            .exectvs{
+                background-color: white;
+               padding-left: 10px;
+               padding-right: 10px;
+                padding-top: 150px;
+                
+                padding-bottom: 150px;
+            }
+            .pstToPrsntExeWrd{
+               color: #03665c;
+               font-size: 18px;
+            }
+            .pstToPrsntExe{
+                text-align: center; color: #F79531;
+                font-family: Lato;
+                color: #F79531;
+                font-size: 27px;
+                padding-bottom: 10px;
+            }
+            .studentOrganztn{
+                background-color: #03665c;
+                height: 1500px;
+                text-align: center;
+                padding-top: 100px;
+                padding-left: 10px;
+                padding-right: 15px;
+            }
+            .studentOrganztnText{
+                color: white;
+                font-family: Lato;
+                font-weight: 700;
+                font-size: 30px;
+            }
+            .studentOrganztnText2{
+                color: white;
+                font-family: Lato;
+                font-size: 18px;
+                font-weight: 500;
+                margin-bottom: 30px;
+            }
+            .MITCpic{
+                width: 80px;
+            }
+            .MITC{
+                background: white;
+                padding: 18px;
+                border-radius: 20px;
+                margin-bottom: 20px;
+            }
+            .MITCpicHeader{
+                margin-top: 18px;
+                color: #09645B;
+                font-family: Lato;
+                font-weight: 700;
+                font-size: 16px;
+            }
+            .MITCpicWord{
+                color:  #908E96;
+                font-family: Lato;
+                font-weight: 400;
+                font-size: 16px;
+                text-align: left;
+            }
+            .FaqQuestions{
+                background: #F79531;
+                margin-bottom: 20px;
+                border-top-left-radius: 25px;
+                border-bottom-left-radius: 25px;
+                border-top-right-radius: 25px;
+                /* height: 70px; */
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-left: 10px;
+                padding-right: 15px;
+                color: white;
+                font-family: Lato;
+                font-weight: 400;
+                font-size: 18px;
+                text-align: right;
+                width: 210px;
+            }
+            .FaqDiv{
+                /* height: 800px; */
+                padding-top: 50px;
+                /* padding-left: 20px; */
+            }
+            .qstnMark{
+                background: #908E96;
+                font-size: 25px;
+                border-radius: 40px;
+                width: 35px;
+                height: 35px;
+                color: white;
+                padding-left: 10px;
+                padding-top: 5px;
+                margin-left: 10px;
+                margin-top: 15px;
+            }
+            .FaqReplies{
+                background: #EFEFF0;
+                border-top-left-radius: 25px;
+                border-bottom-left-radius: 25px;
+                border-top-right-radius: 25px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-left: 20px;
+                padding-right: 15px;
+                color: #908E96;
+                font-family: Lato;
+                font-weight: 400;
+                font-size: 18px;
+                text-align: left;
+                width: 290px;
+                margin-bottom: 20px;
+            }
+            .replyMark{
+                background: #908E96;
+                font-size: 25px;
+                border-radius: 40px;
+                width: 35px;
+                height: 35px;
+                color: white;
+                padding-left: 5px;
+                padding-top: 5px;
+                margin-right: 10px;
+                margin-top: 15px;
+            }
+            .FaqQuestions2{
+                background: #F79531;
+                margin-bottom: 20px;
+                border-top-left-radius: 25px;
+                border-bottom-left-radius: 25px;
+                border-top-right-radius: 25px;
+                /* height: 70px; */
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-left: 10px;
+                padding-right: 15px;
+                color: white;
+                font-family: Lato;
+                font-weight: 400;
+                font-size: 18px;
+                text-align: right;
+                width: 280px;
+            }
+            .FaqDivHeading{
+                color: #09645B;
+                font-family: Lato;
+                font-weight: 700;
+                font-size: 22px;
+            }
+            .FaqDivSubHeading{
+                color: #908E96;
+                font-family: Lato;
+                font-size: 18px;
+                font-weight: 400;
+            }
+            .faqAnswersReply{
+                margin-left: 30px;
+                display: flex;
+            }
+            .faqQstnDiv1{
+                display: flex;
+                margin-left: 80px;
+            }
+            .faqQstnDiv2{
+                display: flex;
+                margin-left: 15px;
+            }
+            .clclc{
+                display: none;
+              }
+              .koll{
+                font-size: 23px;
+               
+                font-weight: 500;
+                font-family: Lato;
+                color: rgb(218, 217, 217) !important;
+                margin-left: -40px;
+            }
+            .hjhjhj{
+                padding-left: 80px;
+                padding-top: 140px;
+            }
+    }
+@media screen and (max-width: 414px){
+    .HomeDesign{
+        background-image: linear-gradient(to bottom, rgba(138, 138, 138, 0.73),rgba(61, 61, 61, 0.73), rgb(0, 0, 0)),
+        url(../src/assets/img/HomeBackground.png); 
+         padding-top: 30px; 
+        background-size: auto;
+         width: 414px;
+         height: 100vh;
+        background-repeat: no-repeat;
+        padding-top: 450px;
+    
+      } 
+    .DiscTomorText{
+        
+        padding-left: 20px;
+        color: white;
+        font-family: Lato;
+        font-weight: 600;
+        font-size: 30px;
+      }
+      .welcomeToMechExce{
+        font-size: 18px;
+        font-weight: 500;
+      }
+      .DscvrMoreBtn{
+        width: 180px;
+        height: 60px;
+        border-radius: 40px;
+        background-color: #08665d;
+        border: none;
+        color: white;
+        font-family: Lato;
+        font-weight: 700;
+        font-size: 18px;
+        margin-top: 20px;
+        margin-bottom: 70px;
+    
+      }
+      .whatsMechatrBgBigScreen{
+        display: none;
+    }
+
+
+        .whatsMechatrBg{
+            display: block;
+            background-image: linear-gradient(to bottom, rgba(61, 61, 61, 0.73),rgba(61, 61, 61, 0.73), rgba(0, 0, 0, 0.966)),
+            url('../src/assets/img/What\ Does\ a\ Mechatronics\ Technician\ Do\ in\ their\ Everyday\ Duties_\ 1.png');
+            text-align: center;
+        padding-top: 190px;
+        padding-bottom: 150px;
+        padding-left: 35px;
+  
+        }
+        .MechatCrcleImg{
+            width: 300px;
+            margin-bottom: 20px;
+            margin-left: 25px;
+        }
+        .whatsMechat{
+            color: #F79531;
+            font-family: Lato; color: #F79531;
+            font-size: 25px;
+
+        }
+        .whatsMechatDEfntn{
+            color: white;
+            font-family: Lato;
+            font-size: 15px;
+            font-weight: 400;
+            width: 340px;
+            text-align: center;
+            margin-left: 8px;
+            
+        }
+        .MeetTheHODBigScreen{
+            display: none;
+        }
+        .MeetTheHOD{
+            background-image: 
+            url(../src/assets/img/Wall-01\ 1.png);
+            text-align: center; 
+            padding-top: 190px;
+            padding-bottom: 150px;
+            padding-left: 20px;
+            padding-right: 20px;
+            display: block;
+            width: 414px;
+            height: 900px;
+        }
+        .meetTheHOD{
+            color: #F79531;
+            font-family: Lato;
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 22px;
+        }
+        .meetTheHODWord{
+            color: white;
+            font-family: Lato;
+            font-size: 15px;
+            font-weight: 400;
+            text-align: center; 
+        }
+        .exectvs{
+            background-color: white;
+           padding-left: 10px;
+           padding-right: 10px;
+            padding-top: 150px;
+            
+            padding-bottom: 150px;
+        }
+        .pstToPrsntExeWrd{
+           color: #03665c;
+           font-size: 18px;
+        }
+        .pstToPrsntExe{
+            text-align: center; color: #F79531;
+            font-family: Lato;
+            color: #F79531;
+            font-size: 27px;
+            padding-bottom: 10px;
+        }
+        .studentOrganztn{
+            background-color: #03665c;
+            height: 1500px;
+            text-align: center;
+            padding-top: 100px;
+            padding-left: 10px;
+            padding-right: 15px;
+        }
+        .studentOrganztnText{
+            color: white;
+            font-family: Lato;
+            font-weight: 700;
+            font-size: 30px;
+        }
+        .studentOrganztnText2{
+            color: white;
+            font-family: Lato;
+            font-size: 18px;
+            font-weight: 500;
+            margin-bottom: 30px;
+        }
+        .MITCpic{
+            width: 80px;
+        }
+        .MITC{
+            background: white;
+            padding: 18px;
+            border-radius: 20px;
+            margin-bottom: 20px;
+        }
+        .MITCpicHeader{
+            margin-top: 18px;
+            color: #09645B;
+            font-family: Lato;
+            font-weight: 700;
+            font-size: 16px;
+        }
+        .MITCpicWord{
+            color:  #908E96;
+            font-family: Lato;
+            font-weight: 400;
+            font-size: 16px;
+            text-align: left;
+        }
+        .FaqQuestions{
+            background: #F79531;
+            margin-bottom: 20px;
+            border-top-left-radius: 25px;
+            border-bottom-left-radius: 25px;
+            border-top-right-radius: 25px;
+            /* height: 70px; */
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            padding-right: 15px;
+            color: white;
+            font-family: Lato;
+            font-weight: 400;
+            font-size: 18px;
+            text-align: right;
+            width: 210px;
+        }
+        .FaqDiv{
+            /* height: 800px; */
+            padding-top: 50px;
+            /* padding-left: 20px; */
+        }
+        .qstnMark{
+            background: #908E96;
+            font-size: 25px;
+            border-radius: 40px;
+            width: 35px;
+            height: 35px;
+            color: white;
+            padding-left: 10px;
+            padding-top: 5px;
+            margin-left: 10px;
+            margin-top: 15px;
+        }
+        .FaqReplies{
+            background: #EFEFF0;
+            border-top-left-radius: 25px;
+            border-bottom-left-radius: 25px;
+            border-top-right-radius: 25px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 20px;
+            padding-right: 15px;
+            color: #908E96;
+            font-family: Lato;
+            font-weight: 400;
+            font-size: 18px;
+            text-align: left;
+            width: 290px;
+            margin-bottom: 20px;
+        }
+        .replyMark{
+            background: #908E96;
+            font-size: 25px;
+            border-radius: 40px;
+            width: 35px;
+            height: 35px;
+            color: white;
+            padding-left: 5px;
+            padding-top: 5px;
+            margin-right: 10px;
+            margin-top: 15px;
+        }
+        .FaqQuestions2{
+            background: #F79531;
+            margin-bottom: 20px;
+            border-top-left-radius: 25px;
+            border-bottom-left-radius: 25px;
+            border-top-right-radius: 25px;
+            /* height: 70px; */
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            padding-right: 15px;
+            color: white;
+            font-family: Lato;
+            font-weight: 400;
+            font-size: 18px;
+            text-align: right;
+            width: 280px;
+        }
+        .FaqDivHeading{
+            color: #09645B;
+            font-family: Lato;
+            font-weight: 700;
+            font-size: 22px;
+        }
+        .FaqDivSubHeading{
+            color: #908E96;
+            font-family: Lato;
+            font-size: 18px;
+            font-weight: 400;
+        }
+        .faqAnswersReply{
+            margin-left: 10px;
+            display: flex;
+        }
+        .faqQstnDiv1{
+            display: flex;
+            margin-left: 80px;
+        }
+        .faqQstnDiv2{
+            display: flex;
+            margin-left: 15px;
+        }
+        .clclc{
+            display: none;
+          }
+          .koll{
+            font-size: 23px;
+           
+            font-weight: 500;
+            font-family: Lato;
+            color: rgb(218, 217, 217) !important;
+            margin-left: -40px;
+        }
+        .hjhjhj{
+            padding-left: 80px;
+            padding-top: 140px;
+        }
 }
-.pstToPrsntExeWrd{
-   color: #03665c;
-   font-size: 18px;
+@media screen and (max-width: 412px){
+    .HomeDesign{
+        background-image: linear-gradient(to bottom, rgba(138, 138, 138, 0.73),rgba(61, 61, 61, 0.73), rgb(0, 0, 0)),
+        url(../src/assets/img/HomeBackground.png); 
+         padding-top: 30px; 
+        background-size: auto;
+         width: 412px;
+         height: 100vh;
+        background-repeat: no-repeat;
+        padding-top: 450px;
+    
+      } 
+    .DiscTomorText{
+        
+        padding-left: 20px;
+        color: white;
+        font-family: Lato;
+        font-weight: 600;
+        font-size: 30px;
+      }
+      .welcomeToMechExce{
+        font-size: 18px;
+        font-weight: 500;
+      }
+      .DscvrMoreBtn{
+        width: 180px;
+        height: 60px;
+        border-radius: 40px;
+        background-color: #08665d;
+        border: none;
+        color: white;
+        font-family: Lato;
+        font-weight: 700;
+        font-size: 18px;
+        margin-top: 20px;
+        margin-bottom: 70px;
+    
+      }
+      .whatsMechatrBgBigScreen{
+        display: none;
+    }
+
+
+        .whatsMechatrBg{
+            display: block;
+            background-image: linear-gradient(to bottom, rgba(61, 61, 61, 0.73),rgba(61, 61, 61, 0.73), rgba(0, 0, 0, 0.966)),
+            url('../src/assets/img/What\ Does\ a\ Mechatronics\ Technician\ Do\ in\ their\ Everyday\ Duties_\ 1.png');
+            text-align: center;
+        padding-top: 190px;
+        padding-bottom: 150px;
+        padding-left: 22px;
+  
+        }
+        .MechatCrcleImg{
+            width: 300px;
+            margin-bottom: 20px;
+        }
+        .whatsMechat{
+            color: #F79531;
+            font-family: Lato; color: #F79531;
+            font-size: 25px;
+
+        }
+        .whatsMechatDEfntn{
+            color: white;
+            font-family: Lato;
+            font-size: 15px;
+            font-weight: 400;
+            width: 340px;
+            text-align: center;
+            margin-left: 10px;
+            
+        }
+        .MeetTheHODBigScreen{
+            display: none;
+        }
+        .MeetTheHOD{
+            background-image: 
+            url(../src/assets/img/Wall-01\ 1.png);
+            text-align: center; 
+            padding-top: 190px;
+            padding-bottom: 150px;
+            padding-left: 20px;
+            padding-right: 20px;
+            display: block;
+            width: 412px;
+            height: 900px;
+        }
+        .meetTheHOD{
+            color: #F79531;
+            font-family: Lato;
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 22px;
+        }
+        .meetTheHODWord{
+            color: white;
+            font-family: Lato;
+            font-size: 15px;
+            font-weight: 400;
+            text-align: center; 
+        }
+        .exectvs{
+            background-color: white;
+           padding-left: 10px;
+           padding-right: 10px;
+            padding-top: 150px;
+            
+            padding-bottom: 150px;
+        }
+        .pstToPrsntExeWrd{
+           color: #03665c;
+           font-size: 18px;
+        }
+        .pstToPrsntExe{
+            text-align: center; color: #F79531;
+            font-family: Lato;
+            color: #F79531;
+            font-size: 27px;
+            padding-bottom: 10px;
+        }
+        .studentOrganztn{
+            background-color: #03665c;
+            height: 1500px;
+            text-align: center;
+            padding-top: 100px;
+            padding-left: 10px;
+            padding-right: 15px;
+        }
+        .studentOrganztnText{
+            color: white;
+            font-family: Lato;
+            font-weight: 700;
+            font-size: 30px;
+        }
+        .studentOrganztnText2{
+            color: white;
+            font-family: Lato;
+            font-size: 18px;
+            font-weight: 500;
+            margin-bottom: 30px;
+        }
+        .MITCpic{
+            width: 80px;
+        }
+        .MITC{
+            background: white;
+            padding: 18px;
+            border-radius: 20px;
+            margin-bottom: 20px;
+        }
+        .MITCpicHeader{
+            margin-top: 18px;
+            color: #09645B;
+            font-family: Lato;
+            font-weight: 700;
+            font-size: 16px;
+        }
+        .MITCpicWord{
+            color:  #908E96;
+            font-family: Lato;
+            font-weight: 400;
+            font-size: 16px;
+            text-align: left;
+        }
+        .FaqQuestions{
+            background: #F79531;
+            margin-bottom: 20px;
+            border-top-left-radius: 25px;
+            border-bottom-left-radius: 25px;
+            border-top-right-radius: 25px;
+            /* height: 70px; */
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            padding-right: 15px;
+            color: white;
+            font-family: Lato;
+            font-weight: 400;
+            font-size: 18px;
+            text-align: right;
+            width: 210px;
+        }
+        .FaqDiv{
+            /* height: 800px; */
+            padding-top: 50px;
+            /* padding-left: 20px; */
+        }
+        .qstnMark{
+            background: #908E96;
+            font-size: 25px;
+            border-radius: 40px;
+            width: 35px;
+            height: 35px;
+            color: white;
+            padding-left: 10px;
+            padding-top: 5px;
+            margin-left: 10px;
+            margin-top: 15px;
+        }
+        .FaqReplies{
+            background: #EFEFF0;
+            border-top-left-radius: 25px;
+            border-bottom-left-radius: 25px;
+            border-top-right-radius: 25px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 20px;
+            padding-right: 15px;
+            color: #908E96;
+            font-family: Lato;
+            font-weight: 400;
+            font-size: 18px;
+            text-align: left;
+            width: 290px;
+            margin-bottom: 20px;
+        }
+        .replyMark{
+            background: #908E96;
+            font-size: 25px;
+            border-radius: 40px;
+            width: 35px;
+            height: 35px;
+            color: white;
+            padding-left: 5px;
+            padding-top: 5px;
+            margin-right: 10px;
+            margin-top: 15px;
+        }
+        .FaqQuestions2{
+            background: #F79531;
+            margin-bottom: 20px;
+            border-top-left-radius: 25px;
+            border-bottom-left-radius: 25px;
+            border-top-right-radius: 25px;
+            /* height: 70px; */
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            padding-right: 15px;
+            color: white;
+            font-family: Lato;
+            font-weight: 400;
+            font-size: 18px;
+            text-align: right;
+            width: 280px;
+        }
+        .FaqDivHeading{
+            color: #09645B;
+            font-family: Lato;
+            font-weight: 700;
+            font-size: 22px;
+        }
+        .FaqDivSubHeading{
+            color: #908E96;
+            font-family: Lato;
+            font-size: 18px;
+            font-weight: 400;
+        }
+        .faqAnswersReply{
+            margin-left: 10px;
+            display: flex;
+        }
+        .faqQstnDiv1{
+            display: flex;
+            margin-left: 80px;
+        }
+        .faqQstnDiv2{
+            display: flex;
+            margin-left: 15px;
+        }
+        .clclc{
+            display: none;
+          }
+          .koll{
+            font-size: 23px;
+           
+            font-weight: 500;
+            font-family: Lato;
+            color: rgb(218, 217, 217) !important;
+            margin-left: -40px;
+        }
+        .hjhjhj{
+            padding-left: 80px;
+            padding-top: 140px;
+        }
 }
-.pstToPrsntExe{
-    text-align: center; color: #F79531;
-    font-family: Lato;
-    color: #F79531;
-    font-size: 27px;
-    padding-bottom: 10px;
+@media screen and (max-width: 393px){
+    .HomeDesign{
+        background-image: linear-gradient(to bottom, rgba(138, 138, 138, 0.73),rgba(61, 61, 61, 0.73), rgb(0, 0, 0)),
+        url(../src/assets/img/HomeBackground.png); 
+         padding-top: 30px; 
+        background-size: auto;
+         width: 393px;
+         height: 100vh;
+        background-repeat: no-repeat;
+        padding-top: 450px;
+    
+      } 
+    .DiscTomorText{
+        
+        padding-left: 20px;
+        color: white;
+        font-family: Lato;
+        font-weight: 600;
+        font-size: 30px;
+      }
+      .welcomeToMechExce{
+        font-size: 18px;
+        font-weight: 500;
+      }
+      .DscvrMoreBtn{
+        width: 180px;
+        height: 60px;
+        border-radius: 40px;
+        background-color: #08665d;
+        border: none;
+        color: white;
+        font-family: Lato;
+        font-weight: 700;
+        font-size: 18px;
+        margin-top: 20px;
+        margin-bottom: 70px;
+    
+      }
+      .whatsMechatrBgBigScreen{
+        display: none;
+    }
+
+
+        .whatsMechatrBg{
+            display: block;
+            background-image: linear-gradient(to bottom, rgba(61, 61, 61, 0.73),rgba(61, 61, 61, 0.73), rgba(0, 0, 0, 0.966)),
+            url('../src/assets/img/What\ Does\ a\ Mechatronics\ Technician\ Do\ in\ their\ Everyday\ Duties_\ 1.png');
+            text-align: center;
+        padding-top: 190px;
+        padding-bottom: 150px;
+        padding-left: 25px;
+  
+        }
+        .MechatCrcleImg{
+            width: 290px;
+            margin-bottom: 20px;
+        }
+        .whatsMechat{
+            color: #F79531;
+            font-family: Lato; color: #F79531;
+            font-size: 25px;
+
+        }
+        .whatsMechatDEfntn{
+            color: white;
+            font-family: Lato;
+            font-size: 15px;
+            font-weight: 400;
+            width: 320px;
+            text-align: center;
+            margin-left: 5px;
+            
+        }
+        .MeetTheHODBigScreen{
+            display: none;
+        }
+        .MeetTheHOD{
+            background-image: 
+            url(../src/assets/img/Wall-01\ 1.png);
+            text-align: center; 
+            padding-top: 190px;
+            padding-bottom: 150px;
+            padding-left: 20px;
+            padding-right: 20px;
+            display: block;
+            width: 393px;
+            height: 900px;
+        }
+        .meetTheHOD{
+            color: #F79531;
+            font-family: Lato;
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 22px;
+        }
+        .meetTheHODWord{
+            color: white;
+            font-family: Lato;
+            font-size: 15px;
+            font-weight: 400;
+            text-align: center; 
+        }
+        .exectvs{
+            background-color: white;
+           padding-left: 10px;
+           padding-right: 10px;
+            padding-top: 150px;
+            
+            padding-bottom: 150px;
+        }
+        .pstToPrsntExeWrd{
+           color: #03665c;
+           font-size: 18px;
+        }
+        .pstToPrsntExe{
+            text-align: center; color: #F79531;
+            font-family: Lato;
+            color: #F79531;
+            font-size: 27px;
+            padding-bottom: 10px;
+        }
+        .studentOrganztn{
+            background-color: #03665c;
+            height: 1500px;
+            text-align: center;
+            padding-top: 100px;
+            padding-left: 10px;
+            padding-right: 15px;
+        }
+        .studentOrganztnText{
+            color: white;
+            font-family: Lato;
+            font-weight: 700;
+            font-size: 30px;
+        }
+        .studentOrganztnText2{
+            color: white;
+            font-family: Lato;
+            font-size: 18px;
+            font-weight: 500;
+            margin-bottom: 30px;
+        }
+        .MITCpic{
+            width: 80px;
+        }
+        .MITC{
+            background: white;
+            padding: 18px;
+            border-radius: 20px;
+            margin-bottom: 20px;
+        }
+        .MITCpicHeader{
+            margin-top: 18px;
+            color: #09645B;
+            font-family: Lato;
+            font-weight: 700;
+            font-size: 16px;
+        }
+        .MITCpicWord{
+            color:  #908E96;
+            font-family: Lato;
+            font-weight: 400;
+            font-size: 16px;
+            text-align: left;
+        }
+        .FaqQuestions{
+            background: #F79531;
+            margin-bottom: 20px;
+            border-top-left-radius: 25px;
+            border-bottom-left-radius: 25px;
+            border-top-right-radius: 25px;
+            /* height: 70px; */
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            padding-right: 15px;
+            color: white;
+            font-family: Lato;
+            font-weight: 400;
+            font-size: 18px;
+            text-align: right;
+            width: 210px;
+        }
+        .FaqDiv{
+            /* height: 800px; */
+            padding-top: 50px;
+            /* padding-left: 20px; */
+        }
+        .qstnMark{
+            background: #908E96;
+            font-size: 25px;
+            border-radius: 40px;
+            width: 35px;
+            height: 35px;
+            color: white;
+            padding-left: 10px;
+            padding-top: 5px;
+            margin-left: 10px;
+            margin-top: 15px;
+        }
+        .FaqReplies{
+            background: #EFEFF0;
+            border-top-left-radius: 25px;
+            border-bottom-left-radius: 25px;
+            border-top-right-radius: 25px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 20px;
+            padding-right: 15px;
+            color: #908E96;
+            font-family: Lato;
+            font-weight: 400;
+            font-size: 18px;
+            text-align: left;
+            width: 290px;
+            margin-bottom: 20px;
+        }
+        .replyMark{
+            background: #908E96;
+            font-size: 25px;
+            border-radius: 40px;
+            width: 35px;
+            height: 35px;
+            color: white;
+            padding-left: 5px;
+            padding-top: 5px;
+            margin-right: 10px;
+            margin-top: 15px;
+        }
+        .FaqQuestions2{
+            background: #F79531;
+            margin-bottom: 20px;
+            border-top-left-radius: 25px;
+            border-bottom-left-radius: 25px;
+            border-top-right-radius: 25px;
+            /* height: 70px; */
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            padding-right: 15px;
+            color: white;
+            font-family: Lato;
+            font-weight: 400;
+            font-size: 18px;
+            text-align: right;
+            width: 280px;
+        }
+        .FaqDivHeading{
+            color: #09645B;
+            font-family: Lato;
+            font-weight: 700;
+            font-size: 22px;
+        }
+        .FaqDivSubHeading{
+            color: #908E96;
+            font-family: Lato;
+            font-size: 18px;
+            font-weight: 400;
+        }
+        .faqAnswersReply{
+            margin-left: 10px;
+            display: flex;
+        }
+        .faqQstnDiv1{
+            display: flex;
+            margin-left: 80px;
+        }
+        .faqQstnDiv2{
+            display: flex;
+            margin-left: 15px;
+        }
+        .clclc{
+            display: none;
+          }
+          .koll{
+            font-size: 23px;
+           
+            font-weight: 500;
+            font-family: Lato;
+            color: rgb(218, 217, 217) !important;
+            margin-left: -40px;
+        }
+        .hjhjhj{
+            padding-left: 80px;
+            padding-top: 140px;
+        }
 }
+@media screen and (max-width: 375px){
+    .HomeDesign{
+        background-image: linear-gradient(to bottom, rgba(138, 138, 138, 0.73),rgba(61, 61, 61, 0.73), rgb(0, 0, 0)),
+        url(../src/assets/img/HomeBackground.png); 
+         padding-top: 30px; 
+        background-size: auto;
+         width: 375px;
+         height: 100vh;
+        background-repeat: no-repeat;
+        padding-top: 450px;
+    
+      } 
+    .DiscTomorText{
+        
+        padding-left: 20px;
+        color: white;
+        font-family: Lato;
+        font-weight: 600;
+        font-size: 30px;
+      }
+      .welcomeToMechExce{
+        font-size: 18px;
+        font-weight: 500;
+      }
+      .DscvrMoreBtn{
+        width: 180px;
+        height: 60px;
+        border-radius: 40px;
+        background-color: #08665d;
+        border: none;
+        color: white;
+        font-family: Lato;
+        font-weight: 700;
+        font-size: 18px;
+        margin-top: 20px;
+        margin-bottom: 70px;
+    
+      }
+      .whatsMechatrBgBigScreen{
+        display: none;
+    }
+
+
+        .whatsMechatrBg{
+            display: block;
+            background-image: linear-gradient(to bottom, rgba(61, 61, 61, 0.73),rgba(61, 61, 61, 0.73), rgba(0, 0, 0, 0.966)),
+            url('../src/assets/img/What\ Does\ a\ Mechatronics\ Technician\ Do\ in\ their\ Everyday\ Duties_\ 1.png');
+            text-align: center;
+        padding-top: 190px;
+        padding-bottom: 150px;
+        padding-left: 25px;
+  
+        }
+        .MechatCrcleImg{
+            width: 290px;
+            margin-bottom: 20px;
+        }
+        .whatsMechat{
+            color: #F79531;
+            font-family: Lato; color: #F79531;
+            font-size: 25px;
+
+        }
+        .whatsMechatDEfntn{
+            color: white;
+            font-family: Lato;
+            font-size: 15px;
+            font-weight: 400;
+            width: 320px;
+            text-align: center;
+            margin-left: -2px;
+            
+        }
+        .MeetTheHODBigScreen{
+            display: none;
+        }
+        .MeetTheHOD{
+            background-image: 
+            url(../src/assets/img/Wall-01\ 1.png);
+            text-align: center; 
+            padding-top: 190px;
+            padding-bottom: 150px;
+            padding-left: 20px;
+            padding-right: 20px;
+            display: block;
+            width: 375px;
+            height: 900px;
+        }
+        .meetTheHOD{
+            color: #F79531;
+            font-family: Lato;
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 22px;
+        }
+        .meetTheHODWord{
+            color: white;
+            font-family: Lato;
+            font-size: 15px;
+            font-weight: 400;
+            text-align: center; 
+        }
+        .exectvs{
+            background-color: white;
+           padding-left: 10px;
+           padding-right: 10px;
+            padding-top: 150px;
+            
+            padding-bottom: 150px;
+        }
+        .pstToPrsntExeWrd{
+           color: #03665c;
+           font-size: 18px;
+        }
+        .pstToPrsntExe{
+            text-align: center; color: #F79531;
+            font-family: Lato;
+            color: #F79531;
+            font-size: 27px;
+            padding-bottom: 10px;
+        }
+        .studentOrganztn{
+            background-color: #03665c;
+            height: 1500px;
+            text-align: center;
+            padding-top: 100px;
+            padding-left: 10px;
+            padding-right: 15px;
+        }
+        .studentOrganztnText{
+            color: white;
+            font-family: Lato;
+            font-weight: 700;
+            font-size: 30px;
+        }
+        .studentOrganztnText2{
+            color: white;
+            font-family: Lato;
+            font-size: 18px;
+            font-weight: 500;
+            margin-bottom: 30px;
+        }
+        .MITCpic{
+            width: 80px;
+        }
+        .MITC{
+            background: white;
+            padding: 18px;
+            border-radius: 20px;
+            margin-bottom: 20px;
+        }
+        .MITCpicHeader{
+            margin-top: 18px;
+            color: #09645B;
+            font-family: Lato;
+            font-weight: 700;
+            font-size: 16px;
+        }
+        .MITCpicWord{
+            color:  #908E96;
+            font-family: Lato;
+            font-weight: 400;
+            font-size: 16px;
+            text-align: left;
+        }
+        .FaqQuestions{
+            background: #F79531;
+            margin-bottom: 20px;
+            border-top-left-radius: 25px;
+            border-bottom-left-radius: 25px;
+            border-top-right-radius: 25px;
+            /* height: 70px; */
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            padding-right: 15px;
+            color: white;
+            font-family: Lato;
+            font-weight: 400;
+            font-size: 18px;
+            text-align: right;
+            width: 210px;
+        }
+        .FaqDiv{
+            /* height: 800px; */
+            padding-top: 50px;
+            /* padding-left: 20px; */
+        }
+        .qstnMark{
+            background: #908E96;
+            font-size: 25px;
+            border-radius: 40px;
+            width: 35px;
+            height: 35px;
+            color: white;
+            padding-left: 10px;
+            padding-top: 5px;
+            margin-left: 10px;
+            margin-top: 15px;
+        }
+        .FaqReplies{
+            background: #EFEFF0;
+            border-top-left-radius: 25px;
+            border-bottom-left-radius: 25px;
+            border-top-right-radius: 25px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 20px;
+            padding-right: 15px;
+            color: #908E96;
+            font-family: Lato;
+            font-weight: 400;
+            font-size: 18px;
+            text-align: left;
+            width: 290px;
+            margin-bottom: 20px;
+        }
+        .replyMark{
+            background: #908E96;
+            font-size: 25px;
+            border-radius: 40px;
+            width: 35px;
+            height: 35px;
+            color: white;
+            padding-left: 5px;
+            padding-top: 5px;
+            margin-right: 10px;
+            margin-top: 15px;
+        }
+        .FaqQuestions2{
+            background: #F79531;
+            margin-bottom: 20px;
+            border-top-left-radius: 25px;
+            border-bottom-left-radius: 25px;
+            border-top-right-radius: 25px;
+            /* height: 70px; */
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            padding-right: 15px;
+            color: white;
+            font-family: Lato;
+            font-weight: 400;
+            font-size: 18px;
+            text-align: right;
+            width: 280px;
+        }
+        .FaqDivHeading{
+            color: #09645B;
+            font-family: Lato;
+            font-weight: 700;
+            font-size: 22px;
+        }
+        .FaqDivSubHeading{
+            color: #908E96;
+            font-family: Lato;
+            font-size: 18px;
+            font-weight: 400;
+        }
+        .faqAnswersReply{
+            margin-left: 10px;
+            display: flex;
+        }
+        .faqQstnDiv1{
+            display: flex;
+            margin-left: 80px;
+        }
+        .faqQstnDiv2{
+            display: flex;
+            margin-left: 15px;
+        }
+    
+    .clclc{
+        display: none;
+      }
+      .koll{
+        font-size: 23px;
+       
+        font-weight: 500;
+        font-family: Lato;
+        color: rgb(218, 217, 217) !important;
+        margin-left: -40px;
+    }
+    .hjhjhj{
+        padding-left: 80px;
+        padding-top: 140px;
+    }
 }
+@media screen and (max-width :360px){
+    .HomeDesign{
+        background-image: linear-gradient(to bottom, rgba(138, 138, 138, 0.73),rgba(61, 61, 61, 0.73), rgb(0, 0, 0)),
+        url(../src/assets/img/HomeBackground.png); 
+         padding-top: 30px; 
+        background-size: auto;
+         width: 360px;
+         height: 100vh;
+        background-repeat: no-repeat;
+        padding-top: 450px;
+    
+      } 
+    .DiscTomorText{
+        
+        padding-left: 20px;
+        color: white;
+        font-family: Lato;
+        font-weight: 600;
+        font-size: 30px;
+      }
+      .welcomeToMechExce{
+        font-size: 18px;
+        font-weight: 500;
+      }
+      .DscvrMoreBtn{
+        width: 180px;
+        height: 60px;
+        border-radius: 40px;
+        background-color: #08665d;
+        border: none;
+        color: white;
+        font-family: Lato;
+        font-weight: 700;
+        font-size: 18px;
+        margin-top: 20px;
+        margin-bottom: 70px;
+    
+      }
+      .whatsMechatrBgBigScreen{
+        display: none;
+    }
+
+
+        .whatsMechatrBg{
+            display: block;
+            background-image: linear-gradient(to bottom, rgba(61, 61, 61, 0.73),rgba(61, 61, 61, 0.73), rgba(0, 0, 0, 0.966)),
+            url('../src/assets/img/What\ Does\ a\ Mechatronics\ Technician\ Do\ in\ their\ Everyday\ Duties_\ 1.png');
+            text-align: center;
+        padding-top: 190px;
+        padding-bottom: 150px;
+        padding-left: 25px;
+  
+        }
+        .MechatCrcleImg{
+            width: 290px;
+            margin-bottom: 20px;
+            margin-left: 10px;
+        }
+        .whatsMechat{
+            color: #F79531;
+            font-family: Lato; color: #F79531;
+            font-size: 25px;
+
+        }
+        .whatsMechatDEfntn{
+            color: white;
+            font-family: Lato;
+            font-size: 15px;
+            font-weight: 400;
+            width: 320px;
+            margin-left: -5px;
+            text-align: center;
+            
+        }
+        .MeetTheHODBigScreen{
+            display: none;
+        }
+        .MeetTheHOD{
+            background-image: 
+            url(../src/assets/img/Wall-01\ 1.png);
+            text-align: center; 
+            padding-top: 190px;
+            padding-bottom: 150px;
+            padding-left: 20px;
+            padding-right: 20px;
+            display: block;
+            width: 360px;
+            height: 900px;
+        }
+        .meetTheHOD{
+            color: #F79531;
+            font-family: Lato;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .meetTheHODWord{
+            color: white;
+            font-family: Lato;
+            font-size: 15px;
+            font-weight: 400;
+            text-align: center; 
+        }
+        .exectvs{
+            background-color: white;
+           padding-left: 10px;
+           padding-right: 10px;
+            padding-top: 150px;
+            
+            padding-bottom: 150px;
+        }
+        .pstToPrsntExeWrd{
+           color: #03665c;
+           font-size: 18px;
+        }
+        .pstToPrsntExe{
+            text-align: center; color: #F79531;
+            font-family: Lato;
+            color: #F79531;
+            font-size: 27px;
+            padding-bottom: 10px;
+        }
+        .studentOrganztn{
+            background-color: #03665c;
+            height: 1500px;
+            text-align: center;
+            padding-top: 100px;
+            padding-left: 10px;
+            padding-right: 15px;
+        }
+        .studentOrganztnText{
+            color: white;
+            font-family: Lato;
+            font-weight: 700;
+            font-size: 30px;
+        }
+        .studentOrganztnText2{
+            color: white;
+            font-family: Lato;
+            font-size: 18px;
+            font-weight: 500;
+            margin-bottom: 30px;
+        }
+        .MITCpic{
+            width: 80px;
+        }
+        .MITC{
+            background: white;
+            padding: 18px;
+            border-radius: 20px;
+            margin-bottom: 20px;
+        }
+        .MITCpicHeader{
+            margin-top: 18px;
+            color: #09645B;
+            font-family: Lato;
+            font-weight: 700;
+            font-size: 16px;
+        }
+        .MITCpicWord{
+            color:  #908E96;
+            font-family: Lato;
+            font-weight: 400;
+            font-size: 16px;
+            text-align: left;
+        }
+        .FaqQuestions{
+            background: #F79531;
+            margin-bottom: 20px;
+            border-top-left-radius: 25px;
+            border-bottom-left-radius: 25px;
+            border-top-right-radius: 25px;
+            /* height: 70px; */
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            padding-right: 15px;
+            color: white;
+            font-family: Lato;
+            font-weight: 400;
+            font-size: 18px;
+            text-align: right;
+            width: 210px;
+        }
+        .FaqDiv{
+            /* height: 800px; */
+            padding-top: 50px;
+            /* padding-left: 20px; */
+        }
+        .qstnMark{
+            background: #908E96;
+            font-size: 25px;
+            border-radius: 40px;
+            width: 35px;
+            height: 35px;
+            color: white;
+            padding-left: 10px;
+            padding-top: 5px;
+            margin-left: 10px;
+            margin-top: 15px;
+        }
+        .FaqReplies{
+            background: #EFEFF0;
+            border-top-left-radius: 25px;
+            border-bottom-left-radius: 25px;
+            border-top-right-radius: 25px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 20px;
+            padding-right: 15px;
+            color: #908E96;
+            font-family: Lato;
+            font-weight: 400;
+            font-size: 18px;
+            text-align: left;
+            width: 290px;
+            margin-bottom: 20px;
+        }
+        .replyMark{
+            background: #908E96;
+            font-size: 25px;
+            border-radius: 40px;
+            width: 35px;
+            height: 35px;
+            color: white;
+            padding-left: 5px;
+            padding-top: 5px;
+            margin-right: 10px;
+            margin-top: 15px;
+        }
+        .FaqQuestions2{
+            background: #F79531;
+            margin-bottom: 20px;
+            border-top-left-radius: 25px;
+            border-bottom-left-radius: 25px;
+            border-top-right-radius: 25px;
+            /* height: 70px; */
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            padding-right: 15px;
+            color: white;
+            font-family: Lato;
+            font-weight: 400;
+            font-size: 18px;
+            text-align: right;
+            width: 280px;
+        }
+        .FaqDivHeading{
+            color: #09645B;
+            font-family: Lato;
+            font-weight: 700;
+            font-size: 22px;
+        }
+        .FaqDivSubHeading{
+            color: #908E96;
+            font-family: Lato;
+            font-size: 18px;
+            font-weight: 400;
+        }
+        .faqAnswersReply{
+            margin-left: 10px;
+            display: flex;
+        }
+        .faqQstnDiv1{
+            display: flex;
+            margin-left: 80px;
+        }
+        .faqQstnDiv2{
+            display: flex;
+            margin-left: 15px;
+        }
+        .clclc{
+            display: none;
+          }
+          .koll{
+            font-size: 23px;
+            font-weight: 500;
+            font-family: Lato;
+            color: rgb(218, 217, 217) !important;
+            margin-left: -40px;
+        }
+        .hjhjhj{
+            padding-left: 80px;
+            padding-top: 120px;
+        }
+    }
+

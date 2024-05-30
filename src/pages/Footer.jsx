@@ -1,4 +1,3 @@
-import React from 'react';
 import NAMTESlogo from '../assets/img/mems_deiagram 1.png';
 
 function Footer() {

@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { NavLink } from 'react-router-dom';
-import NAMTESLogo from '../assets/img/NAMTES Logo.png';
+import NAMTESLogo from '../assets/img/Logomark (1).png';
 import PropTypes from 'prop-types'
 
 const MobileMenuIcon = ({ handleToggle, active }) => (
@@ -48,13 +48,13 @@ const Header = () => {
     <>
       <div className="relative">
         <nav className="fixed top-[2rem] z-50 left-[10%] flex justify-between  items-center py-[12px] px-[16px] w-[80%] rounded-[50px] mx-auto bg-gray-100">
-          <a href="/">
-            <img src={NAMTESLogo} alt="NAMTES LOGO" />
-          </a>
+          <NavLink to="/HomePage"> 
+            <img src={NAMTESLogo} alt="NAMTES LOGO" />  
+            </NavLink>
 
           <div className="hidden md:flex gap-[20px] ">
-            <NavLink className="nav-menu-link">Home</NavLink>
-            <NavLink className="nav-menu-link">About us</NavLink>
+            <NavLink className="nav-menu-link" to="/HomePage">Home</NavLink>
+            <NavLink className="nav-menu-link" to={"/AboutUs"}>About us</NavLink>
             <NavLink className="nav-menu-link">Testimonials</NavLink>
             <NavLink className="nav-menu-link">Student Organisation</NavLink>
             <NavLink className="nav-menu-link">FAQ</NavLink>
@@ -77,15 +77,44 @@ const HeaderMenu = ({ active }) => {
   return (
     <>
       <div className="relative">
-        <div data-aos={`${active ? 'fade-down' : 'fade-up'}`} data-aos-duration='1000' className="fixed bg-primary h-full w-full z-10 transform duration-[11s] ease-in-out">
+        <div data-aos={`${active ? 'fade-down' : 'fade-up'}`} data-aos-duration='1000' className="fixed bg-primary h-full w-full z-10 transform duration-[11s] ease-in-out clclc">
           <div className="flex flex-col">
-            <NavLink className="nav-menu-link">Home</NavLink>
-            <NavLink className="nav-menu-link">About us</NavLink>
-            <NavLink className="nav-menu-link">Testimonials</NavLink>
-            <NavLink className="nav-menu-link">Student Organisation</NavLink>
-            <NavLink className="nav-menu-link">FAQ</NavLink>
+            <span><NavLink className="nav-menu-link koll" to={"/AcademicCalendar"} style={{marginRight:"390px"}}>Academic Calendar</NavLink> <NavLink className="nav-menu-link koll">Student Spotlight</NavLink></span>
+            <span><NavLink className="nav-menu-link koll" to={"/CourseCurriculum"} style={{marginRight:"400px"}}>Course Curriculum</NavLink> <NavLink className="nav-menu-link koll">Virtual Tour</NavLink> </span>
+            <span><NavLink className="nav-menu-link koll" style={{marginRight:"340px"}}>Educational Materials</NavLink> <NavLink className="nav-menu-link koll">Download NAMTES App</NavLink></span>
+            <NavLink className="nav-menu-link koll">Due Payments</NavLink>
+            <NavLink className="nav-menu-link koll">Easy Build Ideas</NavLink>
+            <NavLink className="nav-menu-link koll">Students Achievements</NavLink>
+            <NavLink className="nav-menu-link koll">Outtings & Research</NavLink>
+           
           </div>
+        
         </div>
+
+
+        <div data-aos={`${active ? 'fade-down' : 'fade-up'}`} data-aos-duration='1000' className="fixed bg-primary h-full w-full z-10 transform duration-[11s] ease-in-out hjhjhj">
+          <div className="grid grid-col">
+            <span><NavLink className="nav-menu-link koll" to={"/AcademicCalendar"}>Home</NavLink> </span>
+            <span><NavLink className="nav-menu-link koll" to={"/CourseCurriculum"} >About Us</NavLink>  </span>
+            <span><NavLink className="nav-menu-link koll" >Testimonials</NavLink></span>
+            <NavLink className="nav-menu-link koll">Student Organization</NavLink>
+            <NavLink className="nav-menu-link koll">FAQ</NavLink>
+            <NavLink className="nav-menu-link koll">Academic calendar</NavLink>
+            <NavLink className="nav-menu-link koll">Course Curriculum</NavLink>
+            <NavLink className="nav-menu-link koll">Educational Materials</NavLink>
+            <NavLink className="nav-menu-link koll">Due Payments</NavLink>
+            <NavLink className="nav-menu-link koll">Easy Build Ideas</NavLink>
+            <NavLink className="nav-menu-link koll">Students Achievements</NavLink>
+            <NavLink className="nav-menu-link koll">Outtings & Research</NavLink>
+            <NavLink className="nav-menu-link koll">Student Spotlight</NavLink>
+            <NavLink className="nav-menu-link koll">Virtual Tour</NavLink>
+           
+          </div>
+        
+        </div>
+
+
+      
       </div>
     </>
   );

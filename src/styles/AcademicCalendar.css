@@ -1,0 +1,310 @@
+.academicCalendarBody{
+    background-color: #09645B;
+    height: 100vh;
+    padding-top: 20px;
+    
+    
+}
+
+.sidebar{
+    background-color: #09645B;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 70px;
+    padding: 10px 14px;
+    z-index: 100;
+}
+
+.sidebar:hover{
+    background-color: #09645B;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 300px;
+    padding: 10px 14px;
+    transform: all 5s ;
+   
+}
+
+.sidebar header .image-text{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.sidebar .text:hover{
+    font-family: Lato;
+    font-weight: 600;
+    color: white;
+    font-size: 20px;
+    
+}
+.sidebar .text{
+   opacity: 0;
+   font-family: Lato;
+    font-weight: 600;
+    color: white;
+    font-size: 20px;
+
+}
+.sidebar:hover .text{
+    opacity: 1;
+}
+
+.sidebar .image{
+    min-width: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.sidebar header{
+    position: relative;
+}
+.sidebar li{
+    height: 50px;
+    margin-top: 10px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.sidebar li a{
+    text-decoration: none;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    padding-left: 10px;
+    align-items: center;
+    border-radius: 20px;
+    transition: all 1s;
+}
+.sidebar li .icon{
+    color: white;
+    min-width: 40px;
+   font-size: 20px;
+   display: flex;
+   align-items: center;
+}
+.sidebar li a:hover{
+    background: #01221e;
+    padding-left: 10px;
+}
+.sidebar li a:hover .icon,
+.sidebar li a:hover .text{
+    color: rgb(177, 157, 110);
+    transition: all 0.5s;
+}
+.sidebar li a .icon,
+.sidebar li a .text{
+    color: white;
+    
+}
+.sidebar .menu-bar{
+    
+    height: calc(100% - 150px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 150px;
+}
+.menu-bar .mode{
+    background-color: #01221e;
+}
+
+.home{
+    display: flex;
+    gap: 100px;
+    position: fixed;
+    margin-left: 30px;
+    height: 900px;
+    width: 1700px;
+    background:  #FFF7EF;
+    left: 70px;
+    transition: all 0.5s ease ;
+    border-radius: 20px;
+    padding-left: 100px;
+    padding-top: 60px;
+}
+.home.text{
+    font-size: 30px;
+    padding: 20px;
+}
+.sidebar:hover ~ .home{
+  margin-left: 250px;
+  width: 1800px;
+ 
+  
+    
+}
+.sidebar:hover ~ .home.text{
+    /* left: 10px; */
+     
+  }
+  .sidebar:hover header .image-text{
+    background: #01221e;
+    border-radius: 50px;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.acdmcCrdSrchFilt{
+    display: flex;
+    gap: 500px;
+}
+.acdmcCrdSrchFilt .acadCarText
+{
+    font-family: Lato;
+    font-size: 35px;
+    font-weight: 600;
+    color: #F79531;
+}
+.acdmcCrdSrchFilt .academIcon{
+    margin-top: 10px;
+    background-color: rgb(230, 31, 31);
+    padding: 10px;
+    border-radius: 30px;
+    font-size: 18px;
+}
+.eventsDates{
+    display: flex;
+    margin-top: 30px;
+    gap: 680px;
+    background: #09645B ;
+    width: 850px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 25px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.eventsDatesText{
+    color: white;
+    font-size: 20px;
+    font-family: Lato;
+}
+.resptnRegistr{
+    display: flex;
+    margin-top: 10px;
+    gap: 220px;
+    background: white ;
+    width: 850px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    border-radius: 20px;
+   
+ 
+}
+.resptnRegistrr{
+    display: flex;
+    margin-top: 10px;
+    gap: 170px;
+    background: white ;
+    width: 850px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    border-radius: 20px;
+   
+ 
+}
+.resptnRegistrText{
+    color: rgb(80, 80, 80);
+    font-size: 18px;
+    font-family: Lato;
+    width: 380px;
+    font-weight: 600;
+}
+
+.resptnRegistrText1{
+    color: rgb(139, 138, 138);
+    font-size: 18px;
+    font-family: Lato;
+    margin-top: 10px;
+    
+}
+.resptnRegistrText11{
+    color: rgb(80, 80, 80);
+    font-size: 18px;
+    font-family: Lato;
+    width: 300px;
+    font-weight: 600;
+}
+.resptnRegistrText12{
+    color: rgb(80, 80, 80);
+    font-size: 18px;
+    font-family: Lato;
+    width: 350px;
+    font-weight: 600;
+}
+.summaryText{
+    color: #F79531;
+    font-size: 25px;
+    font-weight: 600;
+}
+.lectureWeeks{
+    margin-top: 20px;
+    background: white;
+    display: flex;
+    width: 400px;
+    height: 60px;
+    border-radius: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 230px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    color: rgb(99, 98, 98);
+}
+.lectureWeeksText1{
+    font-weight: 700;
+    font-size: 19px;
+}
+.stntUnionWeeks{
+    margin-top: 10px;
+    background: white;
+    display: flex;
+    width: 400px;
+    height: 60px;
+    border-radius: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    color: rgb(99, 98, 98);
+}
+.revsnWeeks{
+    margin-top: 10px;
+    background: white;
+    display: flex;
+    width: 400px;
+    height: 60px;
+    border-radius: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 250px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    color: rgb(99, 98, 98);
+}
+.emntnWeeks{
+    margin-top: 10px;
+    background: white;
+    display: flex;
+    width: 400px;
+    height: 60px;
+    border-radius: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 210px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    color: rgb(99, 98, 98);
+}
+
+
+
+
+

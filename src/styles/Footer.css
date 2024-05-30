@@ -21,9 +21,9 @@
     margin-bottom: 8px;
     
 }
-.FooterInfoss{
+/* .FooterInfoss{
     margin-right: 200px;
-}
+} */
 .FooterInfoss h3{
     font-size: 20px;
     font-weight: 400;
@@ -31,4 +31,131 @@
 }
 .footer-icons I{
     margin-right: 25px;
+}
+
+
+
+
+
+
+
+@media screen and (max-width :688px){
+    .FooterDiv{
+        padding-top: 70px;
+        padding-bottom: 70px;
+        padding-left: 10px;
+        background-color: #09645B;
+        color: white;
+        font-family: Lato;
+        
+    }
+    .FooterInfosDiv{
+        display: grid;
+        gap: 20px;
+    }
+}
+@media screen and (max-width :600px){
+    .FooterDiv{
+        padding-top: 70px;
+        padding-bottom: 70px;
+        padding-left: 10px;
+        background-color: #09645B;
+        color: white;
+        font-family: Lato;
+        
+    }
+    .FooterInfosDiv{
+        display: grid;
+        gap: 20px;
+    }
+}
+@media screen and (max-width :430px){
+    .FooterDiv{
+        padding-top: 70px;
+        padding-bottom: 70px;
+        padding-left: 10px;
+        background-color: #09645B;
+        color: white;
+        font-family: Lato;
+        
+    }
+    .FooterInfosDiv{
+        display: grid;
+        gap: 20px;
+    }
+}
+@media screen and (max-width :414px){
+    .FooterDiv{
+        padding-top: 70px;
+        padding-bottom: 70px;
+        padding-left: 10px;
+        background-color: #09645B;
+        color: white;
+        font-family: Lato;
+        
+    }
+    .FooterInfosDiv{
+        display: grid;
+        gap: 20px;
+    }
+}
+@media screen and (max-width :412px){
+    .FooterDiv{
+        padding-top: 70px;
+        padding-bottom: 70px;
+        padding-left: 10px;
+        background-color: #09645B;
+        color: white;
+        font-family: Lato;
+        
+    }
+    .FooterInfosDiv{
+        display: grid;
+        gap: 20px;
+    }
+}
+@media screen and (max-width :393px){
+    .FooterDiv{
+        padding-top: 70px;
+        padding-bottom: 70px;
+        padding-left: 10px;
+        background-color: #09645B;
+        color: white;
+        font-family: Lato;
+        
+    }
+    .FooterInfosDiv{
+        display: grid;
+        gap: 20px;
+    }
+}
+@media screen and (max-width :375px){
+    .FooterDiv{
+        padding-top: 70px;
+        padding-bottom: 70px;
+        padding-left: 10px;
+        background-color: #09645B;
+        color: white;
+        font-family: Lato;
+        
+    }
+    .FooterInfosDiv{
+        display: grid;
+        gap: 20px;
+    }
+}
+@media screen and (max-width :360px){
+    .FooterDiv{
+        padding-top: 70px;
+        padding-bottom: 70px;
+        padding-left: 10px;
+        background-color: #09645B;
+        color: white;
+        font-family: Lato;
+        
+    }
+    .FooterInfosDiv{
+        display: grid;
+        gap: 20px;
+    }
 }
